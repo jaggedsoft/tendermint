@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.20.1
+
+FEATURES:
+- [node] added metrics (served under /metrics using a Prometheus client; disabled by default)
+
 ## 0.20.0
 
 *June 6th, 2018*

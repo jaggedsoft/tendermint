@@ -64,6 +64,10 @@ like the file below, however, double check by inspecting the
     # so the app can decide if we should keep the connection or not
     filter_peers = false
 
+    # When true, metrics are served under /metrics using a Prometheus client
+    # Check out the documentation for the list of available metrics.
+    monitoring = {{ .BaseConfig.Monitoring }}
+
     ##### advanced configuration options #####
 
     ##### rpc server configuration options #####
